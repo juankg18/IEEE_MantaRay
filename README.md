@@ -1,5 +1,5 @@
 # Code for Kinematic and Hydrodynamic Analysis of a Manta Ray-Inspired Robot
-![image info](AbstractA.png)
+![image info](AbstractB.png)
 Resources and extra documentation for the manuscript "Kinematic and Hydrodynamic Analysis of a Manta Ray-Inspired Robot" published in IEEE Latin America Transactions. The project hierarchy and folders description is as follows:
 1. Code
 2. Model
