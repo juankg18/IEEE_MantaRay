@@ -10,6 +10,8 @@ Resources and extra documentation for the manuscript "Kinematic and Hydrodynamic
 
 * Matlab 2021b or later. All additional packages (only needed codes) were uploaded in this repository.
 
+## Detailed Overview of MATLAB Code Files for Manta Ray-Inspired Fin Simulation and Analysis
+
 In the code section, the following files are presented, with their functionality and use explained in detail below:
 
 Perfil_ala.m: This MATLAB code is designed to model and visualize the structure of a fin inspired by manta rays. It employs a geometric approach to define the radial segments and aerodynamic profile based on the NACA airfoil. The code begins by establishing several key parameters, such as the number of radial elements (R), the number of fin segments (S), the number of oscillatory waves along the fin, and parameters for oscillation, including frequency and amplitude. It calculates the length of each radial segment and constructs a matrix that captures the fin's shape and size. The linspace function is used to generate a range of values for the three-dimensional coordinates (x, y, z). The construction of the fin occurs within a nested loop that iterates through each segment and radial element, employing trigonometric functions to calculate the positions of the points that form the fin's geometry. These connections are visualized in a 3D plot, which provides an intuitive representation of the fin's structure. Additionally, the code includes an analysis of the NACA profile, represented graphically based on the calculated coordinates. This modeling is crucial for observing the fin's design and understanding its fluid dynamics.
